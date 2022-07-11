@@ -83,7 +83,7 @@ let toPhash = (/** @type {number} */ h, /** @type {string} */ x) => {
 	return h
 }
 
-let toHash = (/** @type {object} */ value) => toAlphabeticName(
+let toHash = (/** @type {any} */ value) => toAlphabeticName(
 	toPhash(
 		5381,
 		JSON.stringify(value)
