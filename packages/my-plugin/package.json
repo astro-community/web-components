@@ -1,0 +1,28 @@
+{
+	"name": "@astropub/web-components",
+	"version": "0.1.0",
+	"type": "module",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"exports": {
+		".": "./index.js"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"astro-plugin",
+		"component",
+		"components",
+		"element",
+		"elements",
+		"html",
+		"htmlelement",
+		"javascript",
+		"js",
+		"web",
+		"web-component",
+		"web-components"
+	]
+}
